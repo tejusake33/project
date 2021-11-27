@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.container-wrap{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+}
+.child{
+    border: 2px xolid white;
+    height: 250px;
+    margin-right: 10px;
+    background-color: lightgray;
+}
+#one{
+    flex: 2;
+}
+#two{
+    flex: 3;
+}
+ul{
+    list-style-type: none;
+}
+.container-nowwrap{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+}
+.item{
+    border: 2px xolid white;
+    height: 200px;
+    margin-right: 10px;
+    background-color: lightgray;
+}
+#three{
+    flex: 2;
+}
+#four{
+    flex: 2;
+}
+#five{
+    flex: 2;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
